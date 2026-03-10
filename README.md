@@ -1,16 +1,60 @@
-# ArmySystem
+# Military Personnel Recommendation Management System
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.0.
+A modern web application for managing military personnel recommendations, built with **Angular 17** (standalone components) and **Supabase** as the backend database. This system replaces Excel filtering for searching soldiers and storing recommendations.
 
-## Development server
+## 🚀 Quick Start
 
-To start a local development server, run:
+See [QUICKSTART.md](QUICKSTART.md) for setup in 5 minutes, or [SETUP_INSTRUCTIONS.md](SETUP_INSTRUCTIONS.md) for detailed guide.
+
+### Prerequisites
+- Node.js v18+
+- Angular CLI v17+
+- Supabase account (free tier available)
+
+### Install & Run
 
 ```bash
+# Install dependencies
+npm install
+
+# Configure Supabase credentials in src/environments/environment.ts
+
+# Start development server
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Navigate to `http://localhost:4200/`
+
+## 📋 Features
+
+- 🔍 **Advanced Search** - Partial name matching with Arabic text normalization
+- 👮 **Police Number Lookup** - Fast search by ID
+- 📝 **Recommendation Management** - Add and track soldier recommendations
+- 🎨 **Modern UI** - Bootstrap-powered responsive design
+- 🗄️ **Supabase Backend** - Reliable PostgreSQL database
+- ⚡ **Real-time Updates** - Instant search results and feedback
+
+## 📁 Project Structure
+
+```
+src/app/
+├── components/        # Reusable UI components
+│   ├── navbar/
+│   ├── soldier-card/
+│   └── recommendation-list/
+├── models/           # TypeScript interfaces
+├── pages/            # Page components
+│   ├── home/
+│   ├── search/
+│   └── recommendations/
+├── services/         # Business logic and data access
+│   └── supabase.service.ts
+└── environments/     # Environment configuration
+```
+
+## 🛠️ Development
+
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.0.
 
 ## Code scaffolding
 
