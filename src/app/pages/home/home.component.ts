@@ -35,9 +35,10 @@ import { RouterLink } from '@angular/router';
                     <li class="mb-2"><i class="bi bi-check-circle-fill text-success"></i> تطبيع النص العربي</li>
                     <li class="mb-2"><i class="bi bi-check-circle-fill text-success"></i> عرض الملفات الكاملة</li>
                   </ul>
-                  <a routerLink="/search" class="btn btn-primary btn-lg mt-3">
+                  <button routerLink="/search" class="btn btn-primary btn-lg mt-3" type="button">
                     <i class="bi bi-search"></i> ابدأ البحث
-                  </a>
+                  </button>
+
                 </div>
               </div>
             </div>
@@ -58,9 +59,10 @@ import { RouterLink } from '@angular/router';
                     <li class="mb-2"><i class="bi bi-check-circle-fill text-success"></i> تتبع جميع التغييرات</li>
                     <li class="mb-2"><i class="bi bi-check-circle-fill text-success"></i> إمكانيات التصدير</li>
                   </ul>
-                  <a routerLink="/recommendations" class="btn btn-success btn-lg mt-3">
+                  <button routerLink="/recommendations" class="btn btn-success btn-lg mt-3" type="button">
                     <i class="bi bi-list-ul"></i> عرض كل التوصيات
-                  </a>
+                  </button>
+
                 </div>
               </div>
             </div>

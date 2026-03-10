@@ -25,22 +25,24 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a 
-                class="nav-link" 
+              <button 
+                class="nav-link btn btn-link" 
                 routerLink="/search" 
                 routerLinkActive="active"
+                type="button"
               >
                 بحث عن الجنود
-              </a>
+              </button>
             </li>
             <li class="nav-item">
-              <a 
-                class="nav-link" 
+              <button 
+                class="nav-link btn btn-link" 
                 routerLink="/recommendations" 
                 routerLinkActive="active"
+                type="button"
               >
                 التوصيات
-              </a>
+              </button>
             </li>
           </ul>
         </div>
